@@ -28,14 +28,14 @@ counter();
 
 
 // function endgame() {
-// if (UserGuess === correctguess) {
+// if (UserGuess === triviaCards.solution) {
 // 	correctguess ++;
 // }
 // else if (UserGuess !== correctguess) // || (UserGuess not filled in) {
 // 	{wrongguess ++;
 // }
-// $("#div").html("Your correct answers" + correctguess);
-// $("#div").html("Wrong guess" + wrongguess);
+// $("#endgame").html("Your correct answers" + correctguess);
+// $("#endgame").html("Wrong guess" + wrongguess);
 // }
 
  // questions
@@ -81,7 +81,7 @@ counter();
 
 
 //}
-//if (UserChoice === triviaCards.solution1) {
+//if (UserChoice === triviaCards.solution) {
 //	correctanswer ++;
 //} ;
 
